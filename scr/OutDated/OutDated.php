@@ -20,7 +20,7 @@ public function onDPRPacket(DataPacketReceiveEvent $ev){
         $p = $ev->getPlayer();
         if(($pk = $ev->getPacket()) instanceof DataPacket){
             switch($pk->pid()){
-                case ProtocolInfo::LOGIN_PACKET:
+                case ProtocolInfo::LOGIN_PACKET;
                     if($pk->protocol1 === ProtocolInfo::CURRENT_PROTOCOL){
                         return;
                     }
