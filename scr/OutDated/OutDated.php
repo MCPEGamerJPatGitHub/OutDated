@@ -30,6 +30,12 @@ public function onDPRPacket(DataPacketReceiveEvent $ev){
                         $ev->setCancelled(true);
                     }
                 break;
+                                
+                public function onDisable() {
+		$this->getLogger()->info(TextFormat::RED . "OutDated 1.0 Disabled!");
+	                        }
+                        }
+                }
              
                 default:
              
