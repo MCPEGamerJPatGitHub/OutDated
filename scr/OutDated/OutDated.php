@@ -43,5 +43,3 @@ public function onDPRPacket(DataPacketReceiveEvent $ev){
             }
         }
     }
-
-?>
