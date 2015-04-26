@@ -1,6 +1,6 @@
 <?php
 
-namespace 'OutDated';
+namespace OutDated;
 
 use pocketmine/plugin/PluginBase;
 use pocketmine\event\server\DataPacketReceiveEvent;
