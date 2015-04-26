@@ -1,6 +1,6 @@
 <?php
 
-namespace /OutDated/scr/OutDated/OutDated.php
+namespace /OutDated/
 
 use /pocketmine/plugin/PluginBase;
 
