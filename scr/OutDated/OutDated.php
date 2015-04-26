@@ -2,7 +2,7 @@
 
 namespace OutDated;
 
-use pocketmine/plugin/PluginBase;
+use pocketmine\plugin\PluginBase; //Always use backslashes for imports
 use pocketmine\event\server\DataPacketReceiveEvent;
 use pocketmine\event\Listener;
 use pocketmine\Player;
