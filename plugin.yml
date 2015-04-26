@@ -1,5 +1,6 @@
 Name: OutDated
 Author: DuncanA
 Version: 1.0
-API: 1.10.0
+API: 1.12.0
+main: OutDated/OutDated
 Description: Displays a message when someone tries to connect to your server but has an outdated or newer version of Minecraft than the PocketMine server
