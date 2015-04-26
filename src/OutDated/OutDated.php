@@ -4,7 +4,7 @@ namespace OutDated;
 
 use pocketmine\plugin\PluginBase; //Always use backslashes for imports
 use pocketmine\event\server\DataPacketReceiveEvent;
-use pocketmine\network\protocol\Info; //Needed for ProtocolInfo::
+use pocketmine\network\protocol\Info as ProtocolInfo; //Needed for ProtocolInfo::
 use pocketmine\network\protocol\DataPacket; //Needed for DataPacket
 use pocketmine\event\Listener;
 use pocketmine\Player;
