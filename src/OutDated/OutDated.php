@@ -25,10 +25,10 @@ public function onDPRPacket(DataPacketReceiveEvent $ev){
                         return;
                     }
                     if($pk->protocol1 > ProtocolInfo::CURRENT_PROTOCOL){
-                        $p->kick("Why are you new with the cool kids? Downgrade your Client!");
+                        $p->kick("Please downgrade your client!");
                         $ev->setCancelled(true);
                     }else{
-                        $p->kick("Dumbo! Update your client. Your old :(");
+                        $p->kick("Please update your client. You cannot use this.");
                         $ev->setCancelled(true);
                     }
                 break;
@@ -40,3 +40,6 @@ public function onDPRPacket(DataPacketReceiveEvent $ev){
         }
     }
 }
+ >
+
+#TODO- Nicer messages =D
